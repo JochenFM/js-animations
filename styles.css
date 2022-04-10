@@ -10,5 +10,41 @@ main{
 
 .landing {
     min-height: 100vh;
-    
+    background: url('duck.jpg');
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+
+#logo {
+    font-family: "Lobster"; cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%); /*good way fully centre the big-text rather than starting at 50% and text grows over*/
+    font-size: 5rem;
+    font-family: "Lobster"; cursive;
+
+
 }
