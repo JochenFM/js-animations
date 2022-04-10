@@ -33,7 +33,7 @@ nav {
 }
 
 #logo {
-    font-family: "Lobster"; cursive;
+    font-family: "Lobster", cursive;
     font-weight: lighter;
     font-size: 2rem;
 }
@@ -44,7 +44,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -30%); /*good way fully centre the big-text rather than starting at 50% and text grows over*/
     font-size: 5rem;
-    font-family: "Lobster"; cursive;
+    font-family: "Lobster", cursive;
 
 }
 
@@ -74,4 +74,14 @@ nav {
     color: white;
     font-family: "Heebo", sans-serif;
     font-size: 3rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden; /*hides all h1 and thus all text within them*/
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;/*this is to block the inline property of the span element to be able to move it vertically along the y-axes*/
 }
