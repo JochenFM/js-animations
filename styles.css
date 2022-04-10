@@ -46,5 +46,32 @@ nav {
     font-size: 5rem;
     font-family: "Lobster"; cursive;
 
+}
 
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider {
+    background: rgb(97,105,109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);/*it is pushed down by 100% i.e. invisible*/
+}
+.intro-text {
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
 }
